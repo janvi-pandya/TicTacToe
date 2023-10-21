@@ -5,10 +5,10 @@ import styled from 'styled-components';
 export const Symbol = styled.div`
   background-color: white;
   border: 1px solid black;
-  height: 60px;
+  height: 100px;
   margin: 1px;
   transition: background-color .5s ease;
-  width: 60px;
+  width: 100px;
 `;
 
 const BlankSymbol = (props) => {
