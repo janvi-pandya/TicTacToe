@@ -6,10 +6,12 @@ import Result from './Result';
 
 function App({className}) {
   return (
+    <center>
     <div className={className}>
       <Result/>
       <Board/>
     </div>
+    </center>
   );
 }
 
@@ -17,6 +19,7 @@ function App({className}) {
 export default styled(App)`
   font-family: Courier New, Courier, monospace;
   font-weight: bolder;
+  font-size: larger;
   margin: 0 auto;
-  width: 200px;
+  width: 300px;
 `;
